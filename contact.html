@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Aaron Muhindo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { darkMode: "class" };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-white dark:bg-[#0f0f0f] text-gray-900 dark:text-gray-100 font-['Inter']"
+  >
+    <nav class="p-6">
+      <a
+        href="index.html"
+        class="flex items-center space-x-2 text-sm uppercase tracking-widest font-bold"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-4 w-4"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 19l-7-7m0 0l7-7m-7 7h18"
+          />
+        </svg>
+        <span>Retour</span>
+      </a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-20">
+      <h1 class="text-6xl md:text-8xl font-extrabold mb-12 leading-none">
+        Parlons de votre <br /><span class="text-gray-400 dark:text-gray-600"
+          >Prochain Projet.</span
+        >
+      </h1>
+
+      <div class="grid gap-12 mt-20">
+        <!-- Email -->
+        <div class="group border-b border-black/5 dark:border-white/5 pb-8">
+          <p
+            class="text-xs uppercase tracking-widest text-yellow-600 dark:text-yellow-400 mb-2"
+          >
+            Email professionnel
+          </p>
+          <a
+            href="mailto:votre-email@exemple.com"
+            class="text-3xl md:text-5xl font-semibold hover:italic transition-all"
+          >
+            aaron.muhindo@email.com
+          </a>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="group border-b border-black/5 dark:border-white/5 pb-8">
+          <p
+            class="text-xs uppercase tracking-widest text-yellow-600 dark:text-yellow-400 mb-2"
+          >
+            Réseaux
+          </p>
+          <div class="flex flex-wrap gap-8">
+            <a
+              href="#"
+              class="text-3xl md:text-5xl font-semibold hover:italic transition-all"
+              >LinkedIn</a
+            >
+            <a
+              href="#"
+              class="text-3xl md:text-5xl font-semibold hover:italic transition-all"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <!-- Localisation -->
+        <div>
+          <p
+            class="text-xs uppercase tracking-widest text-yellow-600 dark:text-yellow-400 mb-2"
+          >
+            Localisation
+          </p>
+          <p class="text-xl">Disponible à distance & Partout dans le monde.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
